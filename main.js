@@ -3,7 +3,7 @@ const wallpaper = require('wallpaper');
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = "IsC94CNWwVaMJYV6IIlOy1MNjFk1cSYcjJQUqr0u";
+const API_KEY = "you api key";
 const API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
 
 async function fetchNasaImage() {
